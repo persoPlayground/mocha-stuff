@@ -1,0 +1,17 @@
+{
+  "name": "chapter-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive",
+    "test:watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
